@@ -1,5 +1,27 @@
 PODS:
-  - iOSViews (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - iOSViews (0.1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - iOSViews (from `../`)
@@ -9,7 +31,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  iOSViews: 77c34da205f83183ce9f74af8747a373313ce8a0
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  iOSViews: bd186ba21cb056ede51e71fab0f4c354acb2d278
 
 PODFILE CHECKSUM: 7ed295255ca044aa7e98427063acc42cf06a53b6
 
